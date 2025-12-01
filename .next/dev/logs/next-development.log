@@ -1,0 +1,533 @@
+[00:00:01.333] Server  LOG      ✓ Ready in 850ms
+[00:00:04.377] Server  LOG      ○ Compiling / ...
+[00:00:05.341] Server  ERROR    ⨯ ./components/sections/projects.tsx:69:19
+Parsing ecmascript source code failed
+  67 |     category: 'Data Science',
+  68 |     stats: [
+> 69 |       'use client';
+     |                   ^
+  70 |
+  71 |     import { useState, useEffect, useRef } from 'react';
+  72 |     import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:06.732] Browser ERROR   uncaughtError: Error: ./components/sections/projects.tsx:69:19
+Parsing ecmascript source code failed
+  67 |     category: 'Data Science',
+  68 |     stats: [
+> 69 |       'use client';
+     |                   ^
+  70 |
+  71 |     import { useState, useEffect, useRef } from 'react';
+  72 |     import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:06.905] Browser ERROR   ./components/sections/projects.tsx:69:19
+Parsing ecmascript source code failed
+  67 |     category: 'Data Science',
+  68 |     stats: [
+> 69 |       'use client';
+     |                   ^
+  70 |
+  71 |     import { useState, useEffect, useRef } from 'react';
+  72 |     import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:06.905] Browser ERROR   ./components/sections/projects.tsx:69:19
+Parsing ecmascript source code failed
+  67 |     category: 'Data Science',
+  68 |     stats: [
+> 69 |       'use client';
+     |                   ^
+  70 |
+  71 |     import { useState, useEffect, useRef } from 'react';
+  72 |     import { motion, AnimatePresence, useMotionValue, useSpring, useTransform } from 'framer-motion';
+
+Expected ',', got ';'
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:11.219] Browser ERROR   ./components/sections/projects.tsx:24:2
+Parsing ecmascript source code failed
+  22 |   color: '#10b981', // Emerald
+  23 |   link: 'https://github.com/HOSSAM-AMRR/E-Commerce-PowerBI-Dashboard',
+> 24 | },
+     |  ^
+  25 | {
+  26 |   id: '02',
+  27 |     title: 'Sales & Marketing Strategy',
+
+Expression expected
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:13.370] Server  LOG      ✓ Compiled in 58ms
+[00:00:13.766] Server  ERROR   E:\Hossam\.next\dev\server\chunks\ssr\_a9b00aec._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
+[00:00:13.768] Server  ERROR    ⨯ ReferenceError: useState is not defined
+[00:00:15.213] Browser ERROR   uncaughtError: ReferenceError: useState is not defined
+[00:00:16.359] Server  LOG      ✓ Compiled in 58ms
+[00:00:17.122] Browser ERROR   ./components/sections/projects.tsx:1:22
+Parsing ecmascript source code failed
+> 1 | key = { activeProject.id }
+    |                      ^
+  2 | className = "relative h-full w-full"
+  3 | initial = {{ opacity: 0, scale: 1.1 }}
+  4 | animate = {{ opacity: 1, scale: 1 }}
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:18.676] Server  ERROR    ⨯ ./components/sections/projects.tsx:1:22
+Parsing ecmascript source code failed
+> 1 | key = { activeProject.id }
+    |                      ^
+  2 | className = "relative h-full w-full"
+  3 | initial = {{ opacity: 0, scale: 1.1 }}
+  4 | animate = {{ opacity: 1, scale: 1 }}
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:18.856] Browser ERROR   uncaughtError: Error: ./components/sections/projects.tsx:1:22
+Parsing ecmascript source code failed
+> 1 | key = { activeProject.id }
+    |                      ^
+  2 | className = "relative h-full w-full"
+  3 | initial = {{ opacity: 0, scale: 1.1 }}
+  4 | animate = {{ opacity: 1, scale: 1 }}
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+
+
+[00:00:19.007] Browser ERROR   ./components/sections/projects.tsx:1:22
+Parsing ecmascript source code failed
+> 1 | key = { activeProject.id }
+    |                      ^
+  2 | className = "relative h-full w-full"
+  3 | initial = {{ opacity: 0, scale: 1.1 }}
+  4 | animate = {{ opacity: 1, scale: 1 }}
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:19.007] Browser ERROR   ./components/sections/projects.tsx:1:22
+Parsing ecmascript source code failed
+> 1 | key = { activeProject.id }
+    |                      ^
+  2 | className = "relative h-full w-full"
+  3 | initial = {{ opacity: 0, scale: 1.1 }}
+  4 | animate = {{ opacity: 1, scale: 1 }}
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:23.211] Browser ERROR   ./components/sections/projects.tsx:1:22
+Parsing ecmascript source code failed
+> 1 | key = { activeProject.id }
+    |                      ^
+  2 | className = "relative h-full w-full"
+  3 | initial = {{ opacity: 0, scale: 1.1 }}
+  4 | animate = {{ opacity: 1, scale: 1 }}
+
+Expected a semicolon
+
+Import traces:
+  Client Component Browser:
+    ./components/sections/projects.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./components/sections/projects.tsx [Client Component SSR]
+    ./app/page.tsx [Client Component SSR]
+    ./app/page.tsx [Server Component]
+[00:00:24.146] Server  LOG      ✓ Compiled in 62ms
+[00:00:27.205] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:27.205] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:27.205] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764623118663}
+[00:01:15.291] Server  LOG      ✓ Compiled in 371ms
+[00:01:16.677] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:01:16.677] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:01:16.677] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764623168936}
+[00:02:23.586] Server  LOG      ✓ Compiled in 64ms
+[00:02:28.276] Server  LOG      ✓ Compiled in 60ms
+[00:02:29.304] Server  LOG      ✓ Compiled in 54ms
+[00:03:24.760] Server  LOG      ✓ Compiled in 124ms
+[00:03:31.190] Server  LOG      ✓ Compiled in 50ms
+[00:03:52.322] Server  LOG      ✓ Compiled in 122ms
+[00:03:59.783] Server  LOG      ✓ Compiled in 52ms
+[00:04:12.399] Server  LOG      ✓ Compiled in 124ms
+[00:04:18.404] Server  LOG      ✓ Compiled in 56ms
+[00:04:23.866] Server  LOG      ✓ Compiled in 56ms
+[00:05:14.669] Server  LOG      ✓ Compiled in 341ms
+[00:05:17.568] Server  LOG      ✓ Compiled in 56ms
+[00:05:44.623] Server  LOG      ✓ Compiled in 114ms
+[00:05:50.775] Server  LOG      ✓ Compiled in 51ms
+[00:06:07.245] Server  LOG      ✓ Compiled in 134ms
+[00:06:13.412] Server  LOG      ✓ Compiled in 66ms
+[00:06:49.968] Server  LOG      ✓ Compiled in 117ms
+[00:06:55.210] Server  LOG      ✓ Compiled in 69ms
+[00:07:07.562] Server  LOG      ✓ Compiled in 112ms
+[00:07:13.058] Server  LOG      ✓ Compiled in 95ms
+[00:07:52.665] Server  LOG      ✓ Compiled in 90ms
+[00:07:56.398] Server  LOG      ✓ Compiled in 50ms
+[00:08:23.523] Server  LOG      ✓ Compiled in 105ms
+[00:08:28.857] Server  LOG      ✓ Compiled in 125ms
+[00:08:32.823] Server  LOG      ✓ Compiled in 139ms
+[00:08:49.183] Server  LOG      ✓ Compiled in 94ms
+[00:08:55.433] Server  LOG      ✓ Compiled in 116ms
+[00:09:03.303] Server  LOG      ✓ Compiled in 61ms
+[00:09:09.732] Server  LOG      ✓ Compiled in 90ms
+[00:09:14.266] Server  LOG      ✓ Compiled in 52ms
+[00:09:17.344] Server  LOG      ✓ Compiled in 95ms
+[00:09:21.246] Server  LOG      ✓ Compiled in 99ms
+[00:09:26.918] Server  LOG      ✓ Compiled in 50ms
+[00:09:28.336] Server  LOG      ✓ Compiled in 83ms
+[00:09:39.621] Server  LOG      ✓ Compiled in 112ms
+[00:09:44.017] Server  LOG      ✓ Compiled in 82ms
+[00:09:51.670] Server  LOG      ✓ Compiled in 91ms
+[00:09:55.295] Server  LOG      ✓ Compiled in 113ms
+[00:09:58.517] Server  LOG      ✓ Compiled in 84ms
+[00:10:07.135] Server  LOG      ✓ Compiled in 92ms
+[00:10:12.085] Server  LOG      ✓ Compiled in 70ms
+[00:13:50.288] Server  LOG      ✓ Compiled in 117ms
+[00:15:56.796] Server  LOG      ✓ Compiled in 678ms
+[00:15:56.797] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:15:57.616] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="page.tsx">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+            <Home params={Promise} searchParams={Promise}>
+              <main className="relative b...">
+                <HeroSection>
+                  <section ref={{current:null}} className="relative w...">
+                    <div className="absolute i...">
+                      <div>
+                      <DataStream>
+                        <div className="absolute i...">
+                          <motion.div initial={{y:-1000}} animate={{y:1000}} transition={{...}} className="text-[10px...">
+                            <div
+                              className="text-[10px] font-mono text-emerald-500/40 writing-vertical-rl"
+                              style={{transform:"translateY..."}}
+                              ref={function useMotionRef.useCallback}
+                            >
++                             0 0 1 1 0 1 1 0 1 1 0 1 0 0 0 1 1 1 0 0
+-                             1 1 1 0 0 0 0 0 0 0 1 0 1 1 0 0 1 0 1 1
+                          ...
+                      ...
+                    ...
+                ...
+        ...
+      ...
+
+[00:15:57.718] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:15:57.718] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:57.718] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:15:57.718] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624050016}
+[00:15:57.718] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624050016}
+[00:17:37.426] Server  LOG      ✓ Compiled in 217ms
+[00:17:38.497] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:17:38.497] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:17:38.497] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624150793}
+[00:17:46.111] Server  LOG      ✓ Compiled in 102ms
+[00:18:41.320] Server  LOG      ✓ Compiled in 169ms
+[00:18:42.268] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="page.tsx">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+            <Home params={Promise} searchParams={Promise}>
+              <main className="relative b...">
+                <HeroSection>
+                  <section ref={{current:null}} className="relative w...">
+                    <div className="absolute i...">
+                      <DataStream>
+                        <div className="absolute i...">
+                          <motion.div initial={{y:-1000}} animate={{y:1000}} transition={{...}}>
+                            <div style={{transform:"translateY..."}} ref={function useMotionRef.useCallback}>
++                             1 1 1 0 0 1 0 0 1 0 1 0 1 0 1 0 0 0 0 0 1 0 0 0 1 0 0 0 1 1
+-                             1 1 1 1 0 0 1 1 0 0 1 1 1 0 0 1 0 0 1 1 1 1 1 0 0 0 0 1 0 0
+                          ...
+                      ...
+                    ...
+                ...
+        ...
+      ...
+
+[00:18:42.449] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:42.449] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:42.449] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:42.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624214667}
+[00:18:42.449] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624214667}
+[00:18:56.182] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="page.tsx">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+            <Home params={Promise} searchParams={Promise}>
+              <main className="relative b...">
+                <HeroSection>
+                  <section ref={{current:null}} className="relative w...">
+                    <div className="absolute i...">
+                      <DataStream>
+                        <div className="absolute i...">
+                          <motion.div initial={{y:-1000}} animate={{y:1000}} transition={{...}}>
+                            <div style={{transform:"translateY..."}} ref={function useMotionRef.useCallback}>
++                             0 1 0 1 0 1 0 1 0 0 1 0 0 1 1 1 0 1 0 1 0 1 1 0 1 0 1 1 1 0
+-                             0 0 0 0 0 1 1 1 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 1 0 1 0 0 0 0
+                          ...
+                      ...
+                    ...
+                ...
+        ...
+      ...
+
+[00:18:56.182] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:18:56.182] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:56.182] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:18:56.182] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624228466}
+[00:18:56.182] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624228467}
+[00:19:04.399] Server  LOG      ✓ Compiled in 91ms
+[00:19:05.221] Browser ERROR   uncaughtError: Error: Hydration failed because the server rendered text didn't match the client. As a result this tree will be regenerated on the client. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+https://react.dev/link/hydration-mismatch
+
+  ...
+    <RedirectErrorBoundary router={{...}}>
+      <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{lazyData:null, ...}} segmentPath={[...]} ...>
+        <SegmentViewNode type="page" pagePath="page.tsx">
+          <SegmentTrieNode>
+          <ClientPageRoot Component={function Home} serverProvidedParams={{...}}>
+            <Home params={Promise} searchParams={Promise}>
+              <main className="relative b...">
+                <HeroSection>
+                  <section ref={{current:null}} className="relative w...">
+                    <div className="absolute i...">
+                      <div>
+                      <DataStream>
+                        <div className="absolute i...">
+                          <motion.div initial={{y:-1000}} animate={{y:1000}} transition={{...}} className="text-[10px...">
+                            <div
+                              className="text-[10px] font-mono text-emerald-500/40 writing-vertical-rl"
+                              style={{transform:"translateY..."}}
+                              ref={function useMotionRef.useCallback}
+                            >
++                             1 0 1 1 0 1 1 0 0 1 1 1 0 0 1 1 1 1 1 0
+-                             1 1 0 1 1 0 1 1 0 0 0 1 1 0 0 1 1 0 0 1
+                          ...
+                      ...
+                    ...
+                ...
+        ...
+      ...
+
+[00:19:05.221] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:05.221] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:05.221] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:05.221] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624237501}
+[00:19:05.221] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624237501}
+[00:19:06.155] Server  LOG      ✓ Compiled in 69ms
+[00:19:08.213] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:19:08.213] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:19:08.213] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624239655}
+[00:23:06.385] Server  LOG      ✓ Compiled in 80ms
+[00:23:09.211] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:23:11.944] Server  LOG      ✓ Compiled in 95ms
+[00:23:12.487] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'clientWidth')
+[00:23:12.487] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'clientWidth')
+[00:23:42.261] Server  LOG      ✓ Compiled in 71ms
+[00:23:43.662] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'clientWidth')
+[00:23:43.662] Browser ERROR   uncaughtError: TypeError: Cannot read properties of null (reading 'clientWidth')
+[00:24:31.385] Server  LOG      ✓ Compiled in 160ms
+[00:24:33.888] Server  LOG      ✓ Compiled in 77ms
+[00:24:34.223] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[00:24:34.223] Browser ERROR   ./components/dither.tsx:399:16
+Parsing ecmascript source code failed
+  397 | };
+  398 |
+> 399 | export default ]هفاثق;
+      |                ^
+  400 |
+
+Expression expected
+
+Import trace:
+  Client Component Browser:
+    ./components/dither.tsx [Client Component Browser]
+    ./components/sections/hero.tsx [Client Component Browser]
+    ./app/page.tsx [Client Component Browser]
+    ./app/page.tsx [Server Component]
+[00:24:36.976] Server  LOG      ✓ Compiled in 115ms
+[00:24:37.893] Browser ERROR   uncaughtError: ReferenceError: Dither is not defined
+[00:24:48.055] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:24:48.194] Server  LOG      ✓ Compiled in 115ms
+[00:24:48.985] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:24:48.985] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:24:48.985] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624581269}
+[00:26:12.638] Server  LOG      ✓ Compiled in 86ms
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. waveColor wavecolor
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. enableMouseInteraction enablemouseinteraction
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. mouseRadius mouseradius
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. colorNum colornum
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. waveAmplitude waveamplitude
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. waveFrequency wavefrequency
+[00:26:13.226] Browser ERROR   React does not recognize the `%s` prop on a DOM element. If you intentionally want it to appear in the DOM as a custom attribute, spell it as lowercase `%s` instead. If you accidentally passed it from a parent component, remove it from the DOM element. waveSpeed wavespeed
+[00:26:17.477] Server  LOG      ✓ Compiled in 104ms
+[00:26:37.597] Server  LOG      ✓ Compiled in 65ms
+[00:26:39.149] Server  LOG      ✓ Compiled in 51ms
+[00:26:41.211] Browser ERROR   uncaughtError: ReferenceError: Dither is not defined
+[00:26:42.536] Server  LOG      ✓ Compiled in 79ms
+[00:26:42.877] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[00:26:44.007] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:26:44.007] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:26:44.007] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1764624696225}

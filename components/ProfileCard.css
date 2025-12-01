@@ -61,7 +61,7 @@
   height: 80svh;
   max-height: 540px;
   display: grid;
-  aspect-ratio: 0.718;
+  aspect-ratio: 0.75;
   border-radius: var(--card-radius);
   position: relative;
   background-blend-mode: color-dodge, normal, normal, normal;

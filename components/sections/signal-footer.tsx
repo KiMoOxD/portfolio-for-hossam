@@ -3,10 +3,8 @@
 import { useState, useEffect, useRef } from 'react';
 import { motion, useMotionValue, useSpring, AnimatePresence } from 'framer-motion';
 import { Copy, Check, ArrowUpRight, Github, Linkedin, Twitter, Mail } from 'lucide-react';
-import ProfileCard from '@/components/ProfileCard'; // Ensure this points to your ProfileCard file
-import logo from '@/public/me.png'
-
-// --- Components ---
+import ProfileCard from '@/components/ProfileCard';
+import logo from '@/public/hossam.jpg'
 
 const MagneticButton = ({ children, className = "", onClick }: { children: React.ReactNode, className?: string, onClick?: () => void }) => {
   const ref = useRef<HTMLButtonElement>(null);
