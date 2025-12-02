@@ -17,7 +17,7 @@ export default function Home() {
       {/* <Crosshair /> */}
       <SkillsSection />
       <ProjectsGallery />
-      <ExperienceTimeline />
+      {/* <ExperienceTimeline /> */}
       <SignalFooter />
     </main>
   );
